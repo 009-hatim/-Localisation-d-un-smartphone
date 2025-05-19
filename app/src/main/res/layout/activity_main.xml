@@ -22,6 +22,18 @@
             android:textSize="16sp"/>
     </ScrollView>
 
+    <Spinner
+        android:id="@+id/spinnerBus"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/scrollView"
+        app:layout_constraintBottom_toTopOf="@id/buttonMap"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"/>
+
+
     <Button
         android:id="@+id/buttonMap"
         android:layout_width="wrap_content"
